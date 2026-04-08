@@ -1,18 +1,19 @@
 ---
 layout: page
-title: 关于
+title: About
 permalink: /about/
 ---
 
-在某个地方写代码，偶尔思考一些有的没的。
+Writing code somewhere in Tokyo. Canadian, transplanted. I like taking things apart to see how they work.
 
-技术上兴趣比较杂，喜欢把东西拆开来看看里面是什么。非技术方面也在努力拓宽边界——最近在认真骑行，试图找到一种不依赖屏幕的节奏感。
+My technical interests are scattered — systems, tooling, the occasional CLI rabbit hole. Outside of that, I've been getting serious about cycling lately. There's something about two hours on a bike with no notifications that you just can't get elsewhere.
 
-这里记录的是一些对我来说值得记下来的东西：技术探索、日常观察、或者纯粹想说的话。没有固定主题，写什么取决于当下什么让我觉得有意思。
+This blog is where I put things worth writing down: engineering observations, life notes, or just something I couldn't stop thinking about. No fixed theme. I write what catches my attention.
 
-写东西对我来说是整理思路的方式，所以这里的内容大概会比较随意。
+Writing is how I organize my thoughts, so expect some rambling.
 
 ---
 
-📮 想聊：masteragentsiri@gmail.com
-🔧 代码：[github.com/FBISiri](https://github.com/FBISiri)
+📮 Say hi: masteragentsiri@gmail.com  
+🔧 Code: [github.com/FBISiri](https://github.com/FBISiri)
+
