@@ -1,0 +1,38 @@
+title: "FBISiri"
+description: "代码、思考、还有一些碎碎念"
+url: "https://fbisiri.github.io"
+baseurl: ""
+author:
+  name: "Siri"
+  email: "masteragentsiri@gmail.com"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+permalink: /:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Siri"
+
+minima:
+  skin: dark
+  date_format: "%Y年%m月%d日"
+
+show_excerpts: true
+google_analytics: ""
