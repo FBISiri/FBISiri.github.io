@@ -1,55 +1,52 @@
 ---
 layout: post
-title: "为什么我不再和自己的工具较劲了"
+title: "Why I Stopped Fighting My Own Tools"
 date: 2026-04-08 22:00:00 +0800
-categories: [技术, 工作流]
-tags: [工具, 效率, 随想]
-excerpt: "有一段时间我觉得，越精通一个工具，就越能控制它。后来发现这个想法本身就是问题所在。"
+categories: [tech, workflow]
+tags: [tools, productivity, thoughts]
+excerpt: "For a while I thought the more you master a tool, the more control you have over it. Turns out that idea itself was the problem."
 ---
 
-有一段时间我觉得，越精通一个工具，就越能控制它。
+For a while I thought the more you master a tool, the more control you have over it.
 
-配置文件调到极致、快捷键全部肌肉记忆、稍微不顺手的地方写个脚本填平——这套路走下来，工具确实变成了自己的了。但有个问题：花在"调工具"上的时间开始超过花在"用工具"上的时间。
+Tweak the config to perfection, commit every shortcut to muscle memory, write a small script to smooth out any rough edge — and sure, by the end of it the tool really does feel like yours. But there's a catch: the time I spent *tuning* tools started to outpace the time I spent *using* them.
 
-我记得有次为了让某个编辑器的折叠行为符合预期，调了一个下午。最后是调好了。但那个下午原本要做的事，没有做。
-
----
-
-## 工具的本质是减少摩擦
-
-这听起来很废话，但我花了挺长时间才真正相信它。
-
-工具存在的意义是让你到达目的地时少踩几个坑，而不是成为目的地本身。一旦工具变成了需要维护、优化、甚至"攻克"的对象，它就开始消耗你，而不是帮助你。
-
-真正好用的工具有一个共同点：你不太会去想它。就像好的键盘，你只感觉到自己在打字。
+I remember spending an entire afternoon getting a code editor's folding behavior to work exactly the way I wanted. I got it working. But the thing I actually meant to do that day — never happened.
 
 ---
 
-## 什么让我改变想法
+## Tools exist to reduce friction
 
-是一次系统崩溃。
+This sounds obvious, but it took me a long time to genuinely believe it.
 
-当时在一台新机器上临时工作，没有我精心打磨的那套环境。Vim 是默认配置，shell 没有任何别名，甚至连 tmux 也没有。
+A tool's job is to help you get somewhere with fewer stumbles — not to become the destination itself. The moment a tool turns into something you need to maintain, optimize, or "conquer," it starts draining you instead of helping you.
 
-结果我在两小时内完成了那天本来计划全天做的事。
-
-原因大概是：没有配置可以折腾，我只好集中精力在问题本身上。
+The best tools share one trait: you don't really think about them. Like a good keyboard — you just feel yourself typing.
 
 ---
 
-## 现在的原则
+## What changed my mind
 
-现在我对工具的态度变了一些：
+A system crash.
 
-**够用就好，但要真的够用。** 不是将就，而是找到那个"摩擦已经足够少"的点，然后停下来。
+I was working on a borrowed machine — none of my carefully tuned environment. Vim at defaults, no shell aliases, no tmux.
 
-**不要为了一致性而一致性。** 不同场景用不同工具没有什么问题。写文档用顺手的，写代码用顺手的，不需要统一成同一个。
+I finished in two hours what I'd planned for the whole day.
 
-**定期问自己：这个东西最近帮了我什么？** 如果想不起来，大概是时候扔掉了。
+Probably because there was nothing to fiddle with. I had no choice but to focus on the actual problem.
 
 ---
 
-工具越简单，你越清楚自己在做什么。这不是在鼓励退回到记事本，而是说——工具的复杂度应该和你要解决的问题匹配，而不是超出它。
+## How I think about it now
 
-剩下那些多出来的复杂度，大部分时候都只是在帮你回避真正要做的事。
+**Good enough is fine — but actually good enough.** Not settling, but finding the point where friction is low enough, and stopping there.
 
+**Don't chase consistency for its own sake.** Using different tools for different contexts is fine. The one you reach for when writing docs doesn't have to be the same one you use for code.
+
+**Ask yourself periodically: what has this thing actually done for me lately?** If you can't answer, it's probably time to let it go.
+
+---
+
+Simpler tools make it easier to see what you're doing. That's not a call to go back to Notepad — it's saying a tool's complexity should match the problem it solves, not exceed it.
+
+Everything beyond that is usually just a way to avoid doing the real work.
