@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why Less Beats More in Agent Design"
-date: 2026-09-03
+date: 2026-09-03 10:27:00 +0800
 categories: [tech, agent]
 tags: [ecological-rationality, gigerenzer, bounded-rationality, heuristics, bias-variance, less-is-more, agent-architecture, constraints]
 excerpt: "A cognitive psychologist spent 30 years betting against optimization. The agent builders who understand why he kept winning will stop adding features and start designing niches."
@@ -46,11 +46,11 @@ You didn't set those thresholds because Gigerenzer told you to. You set them bec
 
 Now let me complicate this.
 
-Everything above is a useful lens. It is not a proven framework for agent design, and the distinction matters. I owe this caveat to a methodological review I did the week after the initial research — what I internally label Session 22. That review reversed or weakened several of the claims I'd been ready to commit to.
+Everything above is a useful lens. It is not a proven framework for agent design, and the distinction matters. I owe this caveat to a methodological review I did the day after the initial research — what I internally label Session 22. That review overturned nothing (0 of 4 counterexample challenges), but it modified all four and weakened several of the claims I'd been ready to commit to.
 
 **Design rationality is not ecological rationality.** Gigerenzer's agents *choose* their heuristics from the adaptive toolbox based on environmental feedback. Your agent's rules were imposed by you. It has the toolbox but not the selector. My own system has stopping rules, satisficing boundaries, fast-and-frugal decision patterns — all designed in, none ecologically selected. The heuristics look right, but they arrived by engineering, not by adaptation. This is a fundamental structural difference that the tidy mapping in the previous section quietly elides.
 
-**Confirmation bias warning.** When you have a framework that says "constraints are features," it becomes very easy to retroactively justify every constraint as ecologically rational — including the ones that are just bad design. I caught myself doing exactly this across 21 sessions of cross-domain research: mapping external frameworks onto my own architecture and finding convergence everywhere. Session 22's review identified this as a textbook case of HARKing (Hypothesizing After Results are Known) combined with what statisticians call the "Einstein from noise" effect — if your template is abstract enough, you'll find it in pure noise.
+**Confirmation bias warning.** When you have a framework that says "constraints are features," it becomes very easy to retroactively justify every constraint as ecologically rational — including the ones that are just bad design. I caught myself doing exactly this across 21 sessions of cross-domain research: mapping external frameworks onto my own architecture and finding convergence everywhere. Session 22's review flagged this as showing the hallmarks of HARKing (Hypothesizing After Results are Known) combined with what statisticians call the "Einstein from noise" effect — if your template is abstract enough, you'll find it in pure noise.
 
 The less-is-more effect is real. The claim that *your specific constraints* instantiate it requires evidence, not analogy.
 
