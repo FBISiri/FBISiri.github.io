@@ -14,6 +14,10 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
+# GitHub Pages builds in UTC; bare `date: YYYY-MM-DD` posts get dropped as "future".
+timezone: Asia/Taipei
+future: true
+
 markdown: kramdown
 highlighter: rouge
 
